@@ -1,0 +1,44 @@
+.analytics-container {
+  width: 70vw;
+}
+
+.table-container {
+  flex: 1;
+  border-radius: 8px;
+  box-shadow: none;
+  border: 1px solid #e0e0e0;
+}
+
+.table-header {
+  background-color: #f8f9fa;
+}
+
+.table-cell {
+  color: #666;
+  font-weight: 500;
+}
+
+.table-cell-content {
+  color: #444;
+}
+
+.table-row:hover {
+  background-color: #f8f9fa;
+}
+
+.table-cell-content {
+  max-width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.empty-data {
+  padding: 24px;
+  text-align: center;
+}
+
+/* Styling for loading state */
+.empty-data {
+  color: #888;
+}

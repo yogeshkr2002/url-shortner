@@ -1,0 +1,96 @@
+.link-container {
+  width: 75vw;
+}
+
+.table-container {
+  border-radius: 8px;
+  box-shadow: none;
+  border: 1px solid #e0e0e0;
+}
+
+.table-header {
+  background-color: #f8f9fa;
+}
+
+.table-cell {
+  color: #666;
+  font-weight: 500;
+}
+
+.table-cell-content {
+  color: #444;
+}
+.table-cell-content1 {
+  width: 15vw;
+  color: #444;
+}
+
+.table-row:hover {
+  background-color: #f8f9fa;
+}
+
+.ellipsis {
+  max-width: 150px; /* Adjust width for better display */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-right: 8px; /* Space between the link and the icon */
+}
+
+.status-chip {
+  border-radius: 1px;
+  font-size: 0.75rem;
+  height: 24px;
+}
+
+.status-active {
+  background-color: #4caf50;
+  color: white;
+}
+
+.status-inactive {
+  background-color: #f44336;
+  color: white;
+}
+
+.icon-button {
+  font-size: 20px; /* Increased size for better visibility */
+  color: #444;
+}
+
+.icon-button:hover {
+  color: #1976d2;
+}
+
+.short-link-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-width: 0;
+}
+
+.table-row {
+  display: table-row;
+}
+
+.modal-container {
+  padding: 20px;
+}
+
+.modal-header {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.modal-input {
+  margin-bottom: 10px;
+}
+
+/* Tooltip Styling */
+.tooltip {
+  background-color: #333;
+  font-size: 0.875rem;
+  color: white;
+  padding: 5px;
+}

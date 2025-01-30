@@ -1,0 +1,91 @@
+.register-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+/* Left Section with Background Image */
+.register-left {
+  width: 50vw;
+  background-image: url("../../public/images/auth_image.png");
+  background-size: cover;
+  background-position: center;
+}
+
+/* Right Section (Form) */
+.register-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+/* Form Box */
+.register-box {
+  width: 60%;
+  padding: 20px;
+  text-align: center;
+}
+
+.register-box h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #000;
+}
+
+/* Input Fields */
+.register-box input {
+  width: 100%; /* Makes width consistent */
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box; /* Ensures width includes padding/border */
+}
+
+/* Button Styling */
+.register-box button {
+  width: 100%; /* Matches input width */
+  padding: 12px;
+  background-color: #1a3dff;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  box-sizing: border-box; /* Ensures same width as inputs */
+}
+
+.register-box button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.register-box button:hover {
+  background-color: #0027b3;
+}
+
+/* Error Message */
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* Login Link */
+.login-link {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.login-link a {
+  color: #1a3dff;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
